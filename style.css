@@ -12,10 +12,9 @@ body {
 
 /* navigation menu */
 nav {
-    background:  rgb(0, 0, 0);
-    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    padding: 10px;
     display: flex;
-    padding: 10px
     justify-content: space-between;
     margin-bottom: 20px;
 }
