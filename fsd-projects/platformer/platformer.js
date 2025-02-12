@@ -31,33 +31,34 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-    createPlatform(500, 700, 100, 20, "pink");
-    createPlatform(600, 600, 100, 20, "pink");
-    createPlatform(700, 500, 100, 20, "pink");
-    createPlatform(800, 400, 100, 20, "pink");
-    createPlatform(600, 300, 100, 20, "pink");
-    createPlatform(500, 200, 100, 20, "pink");
-    createPlatform(400, 100, 100, 20, "pink");
-    createPlatform(1000, 300, 100, 20, "pink");
-    createPlatform(1200, 300, 100, 20, "pink");
-    createPlatform(1300, 300, 100, 20, "pink");
-    createPlatform(300, 200, 100, 20, "pink");
-    createPlatform(200, 300, 100, 20, "pink");
-    createPlatform(100, 400, 100, 20, "pink");
-    createPlatform(900, 500, 100, 20, "pink");
-    createPlatform(1000, 600, 100, 20, "pink");
-    createPlatform(1100, 700, 100, 20, "pink");
-
+    createPlatform(500, 700, 100, 20, "brown");
+    createPlatform(600, 600, 100, 20, "pbrown");
+    createPlatform(700, 500, 100, 20, "pbrown");
+    createPlatform(800, 400, 100, 20, "brown");
+    createPlatform(600, 300, 100, 20, "brown");
+    createPlatform(500, 200, 100, 20, "brown");
+    createPlatform(400, 100, 100, 20, "brown");
+    createPlatform(1000, 300, 100, 20, "brown");
+    createPlatform(1200, 300, 100, 20, "brown");
+    createPlatform(1300, 300, 100, 20, "brown");
+    createPlatform(300, 200, 100, 20, "brown");
+    createPlatform(200, 300, 100, 20, "brown");
+    createPlatform(100, 400, 100, 20, "brown");
+    createPlatform(900, 500, 100, 20, "brown");
+    createPlatform(1000, 600, 100, 20, "brown");
+    createPlatform(1100, 700, 100, 20, "brown");
+    createPlatform(1300, 600, 100, 10, "black");
+    createPlatform(1300, 600, 20, 150, "black");
 
     // TODO 3 - Create Collectables
     createCollectable("steve", 1350, 230);
     createCollectable("steve", 130, 330);
-
+    createCollectable("steve", 830, 330);
 
     
     // TODO 4 - Create Cannons
-    createCannon("top", 1100, 999);
-
+    createCannon("top", 1100, 2000);
+    createCannon("bottom", 300, 2000);
     
     
     //////////////////////////////////
