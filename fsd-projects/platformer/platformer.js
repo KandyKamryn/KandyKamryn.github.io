@@ -27,28 +27,28 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     toggleGrid();
+     
 
 
     // TODO 2 - Create Platforms
-    createPlatform(500, 700, 100, 20, "brown");
-    createPlatform(600, 600, 100, 20, "brown");
-    createPlatform(700, 500, 100, 20, "brown");
-    createPlatform(800, 400, 100, 20, "brown");
-    createPlatform(600, 300, 100, 20, "brown");
-    createPlatform(500, 200, 100, 20, "brown");
-    createPlatform(400, 100, 100, 20, "brown");
-    createPlatform(1000, 300, 100, 20,"brown");
-    createPlatform(1200, 300, 100, 20,"brown");
-    createPlatform(1300, 300, 100, 20,"brown");
-    createPlatform(300, 200, 100, 20, "brown");
-    createPlatform(200, 300, 100, 20, "brown");
-    createPlatform(100, 400, 100, 20, "brown");
-    createPlatform(900, 500, 100, 20, "brown");
-    createPlatform(1000, 600, 100, 20,"brown");
-    createPlatform(1100, 700, 100, 20, "brown");
-    createPlatform(1300, 600, 100, 10, "black");
-    createPlatform(1300, 600, 20, 55, "black");
+    createPlatform(500, 700, 100, 20,"red");
+    createPlatform(600, 600, 100, 20,"orange");
+    createPlatform(700, 500, 100, 20,"yellow");
+    createPlatform(800, 400, 100, 20,"green");
+    createPlatform(600, 300, 100, 20,"blue");
+    createPlatform(500, 200, 100, 20,"purple");
+    createPlatform(400, 100, 100, 20,"pink");
+    createPlatform(1000, 300, 100, 20,"red");
+    createPlatform(1200, 300, 100, 20,"orange");
+    createPlatform(1300, 300, 100, 20,"yellow");
+    createPlatform(300, 200, 100, 20,"green");
+    createPlatform(200, 300, 100, 20,"blue");
+    createPlatform(100, 400, 100, 20,"purple");
+    createPlatform(900, 500, 100, 20,"pink");
+    createPlatform(1000, 600, 100, 20,"red");
+    createPlatform(1100, 700, 100, 20,"orange");
+    createPlatform(1300, 600, 100, 10,"black");
+    createPlatform(1300, 600, 20, 55,"black");
 
     // TODO 3 - Create Collectables
     createCollectable("reddiamond", 1350, 230);
