@@ -69,7 +69,7 @@
       	var points = 0;
       	var speed = 10;
       	var positionY = 0;
-      	var speedY = 10;
+      	var speedY = 0;
       	var boardHeight = jQuery(window).height();
       	var randNum = Math.random() * 100;
 
@@ -89,25 +89,25 @@
       		speed *= -1;
       	}
 	}
-}
+
       	/*
       	This Function will be called each time the box is clicked. Each time it is called,
       	it should increase the points total, increase the speed, and move the box to
       	the left side of the screen.
       	*/
-      	function handleBoxClick(); {
+      	function handleBoxClick() {
       		positionX = 0;
       		points = points + 1; // Adds 1 to variableName
       		changeBoxText(points);
-      		speed = 3 * points +10;
+      		speed = 3 * points + 10;
 
-      	};
-
-
+      	}
 
 
 
-     }) ();
+
+
+     }) ()
     </script>
   </body>
 </html>
