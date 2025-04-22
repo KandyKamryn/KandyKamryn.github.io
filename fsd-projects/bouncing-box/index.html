@@ -45,8 +45,11 @@
       	var boardWidth = board.width();	// the maximum X-Coordinate of the screen
 
 
-      	// Every 50 milliseconds, call the update Function (see below)
-      	setInterval(update, 50);
+      	
+		//Every time the box is clicked, call the handleBoxClick Function (see below)
+		box.on("click", handleBoxClick);
+		// Every 50 milliseconds, call the update Function (see below)
+		setInterval(update, 50);
 
 		  
       	// moves the Box to a new position on the screen along the X-Axis
